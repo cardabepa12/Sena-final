@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+//Configuracion de conexion a BD
 public class DataBaseConnection {
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/cacharreria_exito";
     private static final String USER = "root";

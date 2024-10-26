@@ -8,6 +8,7 @@ import java.util.List;
 import org.springframework.boot.autoconfigure.integration.IntegrationProperties.RSocket.Client;
 
 public class ClienteController {
+    //Instanciando la clase que tiene la logica para conectarse a la BD.
     private ClienteRepository clienteRepository = new ClienteRepository();
 
     public List<Cliente> getAllClientes() {
