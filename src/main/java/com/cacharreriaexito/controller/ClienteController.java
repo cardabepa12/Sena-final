@@ -22,8 +22,8 @@ public class ClienteController {
         clienteRepository.deleteCliente(idCliente);
     }
 
-    public void upCliente(Cliente cliente){
-        clienteRepository.updateCliente(cliente);
+    public void upCliente(int idCliente, Cliente clienteActualizado){
+        clienteRepository.updateCliente(clienteActualizado);
     }
 
     
